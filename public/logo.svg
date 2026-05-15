@@ -1,13 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" width="360" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 120" width="440" height="120">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#B08D7E"/>
-      <stop offset="100%" stop-color="#D4A88A"/>
+    <linearGradient id="rose-sunrise" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4B5A0"/>
+      <stop offset="50%" stop-color="#B08D7E"/>
+      <stop offset="100%" stop-color="#8B6F60"/>
     </linearGradient>
   </defs>
-  <circle cx="60" cy="60" r="44" fill="url(#g)"/>
-  <text x="60" y="78" font-family="Georgia, serif" font-size="52" font-weight="600"
-        text-anchor="middle" fill="#FAF8F5" letter-spacing="-1">S</text>
-  <text x="120" y="62" font-family="Georgia, serif" font-size="34" font-weight="600" fill="#2D2A26" letter-spacing="-0.5">Seenup</text>
-  <text x="121" y="90" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#8B6F60" letter-spacing="3">DIGITAL</text>
+  <!-- Disco -->
+  <circle cx="60" cy="60" r="48" fill="url(#rose-sunrise)"/>
+  <!-- S serifa italica -->
+  <text x="60" y="82" font-family="Instrument Serif, Georgia, serif" font-style="italic" font-size="62" font-weight="400"
+        text-anchor="middle" fill="#FAF8F5">S</text>
+  <!-- Wordmark Seenup (italic serif) -->
+  <text x="128" y="66" font-family="Instrument Serif, Georgia, serif" font-style="italic" font-size="40" font-weight="400" fill="#2D2A26" letter-spacing="-1">Seenup</text>
+  <!-- DIGITAL (sans, caixa alta, espaçada) -->
+  <text x="269" y="66" font-family="Manrope, system-ui, sans-serif" font-size="14" font-weight="500" fill="#5C5249" letter-spacing="4">DIGITAL</text>
 </svg>

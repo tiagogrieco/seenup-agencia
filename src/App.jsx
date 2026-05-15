@@ -31,9 +31,9 @@ export default function App() {
                     <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full text-sm font-semibold mb-6">
                         <Sparkles className="w-4 h-4" /> Agência de software · Uberlândia, MG
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 font-display">
-                        Software sob medida pra<br />
-                        <span className="text-primary">negócios que querem crescer</span>
+                    <h1 className="text-5xl md:text-7xl leading-[1.05] mb-6 font-display tracking-tighter text-ink">
+                        Software que faz<br />
+                        seu negócio <span className="italic text-primary">crescer.</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
                         Construímos SaaS, automações de WhatsApp e ferramentas com IA para salões de beleza,
@@ -55,7 +55,7 @@ export default function App() {
             <section id="servicos" className="bg-white py-20 px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-14">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-3 font-display">O que fazemos</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-3 font-display tracking-tighter">O que fazemos</h2>
                         <p className="text-gray-600 max-w-2xl mx-auto">
                             4 frentes de trabalho. Tudo desenhado pra resultado, não pra portfólio.
                         </p>
@@ -104,7 +104,7 @@ export default function App() {
             <section id="cases" className="py-20 px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-14">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-3 font-display">Cases reais</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-3 font-display tracking-tighter">Cases reais</h2>
                         <p className="text-gray-600 max-w-2xl mx-auto">
                             Produtos que estão no ar agora, gerando receita pra quem usa.
                         </p>
@@ -151,7 +151,7 @@ export default function App() {
             <section id="processo" className="bg-white py-20 px-4">
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-14">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-3 font-display">Como trabalhamos</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-3 font-display tracking-tighter">Como trabalhamos</h2>
                         <p className="text-gray-600">Sprints curtas, entregas semanais, sem enrolação.</p>
                     </div>
                     <div className="grid md:grid-cols-4 gap-6">
@@ -189,7 +189,7 @@ export default function App() {
             <section className="bg-gradient-to-r from-primary/10 to-accent/10 py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <Zap className="w-12 h-12 text-primary mx-auto mb-4" />
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display">Por que Seenup?</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display tracking-tighter">Por que Seenup?</h2>
                     <div className="grid md:grid-cols-3 gap-6 mt-10">
                         {[
                             { t: "Produtos no ar", d: "Não somos só agência. Temos SaaS próprios pagantes. Sabemos o que escala." },
@@ -211,7 +211,7 @@ export default function App() {
             {/* CTA */}
             <section id="contato" className="bg-primary text-white py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-4 font-display">Tem um projeto em mente?</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4 font-display tracking-tighter">Tem um projeto em mente?</h2>
                     <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto">
                         Vamos conversar 15 minutos sem compromisso pra ver se faz sentido a gente trabalhar junto.
                     </p>
